@@ -56,10 +56,9 @@ ul li a {
   z-index: -1;
 }
 /* Main Container */
-.main-container{
-    display: flex; 
+.main-container {
+  display: flex;
 }
-
 
 /* Hero Section */
 
@@ -82,7 +81,7 @@ ul li a {
   text-transform: capitalize;
 }
 .hero-section h3 {
-    width: 22.9375rem;
+  width: 22.9375rem;
   color: #333;
   font-family: Poppins;
   font-size: 2.25rem;
@@ -92,7 +91,7 @@ ul li a {
   text-transform: capitalize;
 }
 .hero-section p {
-    width: 21.6875rem;
+  width: 21.6875rem;
   color: #333;
   font-family: Poppins;
   font-size: 0.8125rem;
@@ -101,100 +100,99 @@ ul li a {
   line-height: normal;
   text-transform: capitalize;
 }
-.hero-section button{
-    width: 10.1875rem;
-height: 3rem;
-flex-shrink: 0;
-border-radius: 4.3125rem;
-background: #FF922C;
-box-shadow: 0px 20px 40px 0px #F4E2D1;
-color: #FFF;
-font-family: Poppins;
-font-size: 0.8125rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-border: none;
-margin-top: 2rem;
+.hero-section button {
+  width: 10.1875rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 4.3125rem;
+  background: #ff922c;
+  box-shadow: 0px 20px 40px 0px #f4e2d1;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  border: none;
+  margin-top: 2rem;
 }
 
-.hero-section p:last-of-type{
-    margin-top: 10rem;
+.hero-section p:last-of-type {
+  margin-top: 10rem;
 }
 /* Spin Image */
-.circle-border{
-    width: 450px;
-    height: 450px;
-    border-top: 2px dashed brown;
-    border-radius: 50%;
-    position: absolute;
-    top: 300px;
-    right: 260px;
+.circle-border {
+  width: 450px;
+  height: 450px;
+  border-top: 2px dashed brown;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  right: 260px;
 }
 
 /* .spin-image img, */
-.center-img{
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    position: absolute;
-    top: 380px;
-    right: 335px;
+.center-img {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 380px;
+  right: 335px;
 }
-.circle-img1{
-    position: absolute;
-    bottom: 268px;
-    right: 650px;
-    border-radius: 50%;
-    transform: rotate(-2deg);
+.circle-img1 {
+  position: absolute;
+  top: 416px;
+  right: 650px;
+  border-radius: 50%;
+  transform: rotate(-3deg);
 }
-.circle-img2{
-    position: absolute;
-    top: 295px;
-    border-radius: 50%;
-    right: 580px;
+.circle-img2 {
+  position: absolute;
+  top: 295px;
+  border-radius: 50%;
+  right: 580px;
 }
-.circle-img3{
-    border-radius: 50%;
-    position: absolute;
-    right: 430px;
-    top: 260px;
+.circle-img3 {
+  border-radius: 50%;
+  position: absolute;
+  right: 430px;
+  top: 260px;
 }
-.circle-img4{
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        position: absolute;
-        right: 285px;
-        top: 300px;
+.circle-img4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 285px;
+  top: 300px;
 }
 
-.circle-img5{
-    border-radius: 50%;
-    position: absolute;
-    right: 210px;
-    top: 433px;
-    transform: rotate(7deg);
+.circle-img5 {
+  border-radius: 50%;
+  position: absolute;
+  right: 210px;
+  top: 433px;
+  transform: rotate(7deg);
 }
-.spin-btn{
-    position: absolute;
-    bottom: 100px;
-    right: 200px;
-     
+.spin-btn {
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
 }
-.spin-btn button{
-    border: none;
-    background: none;
+.spin-btn button {
+  border: none;
+  background: none;
 }
 .spin-btn .btn-1 {
-    position: absolute;
-    right: 470px;
-    bottom: 20px;
+  position: absolute;
+  right: 470px;
+  bottom: 20px;
 }
-.spin-btn .btn-2{
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+.spin-btn .btn-2 {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
